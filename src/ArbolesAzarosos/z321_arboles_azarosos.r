@@ -19,9 +19,9 @@ PARAM$semilla <- 199999
 # parameetros rpart
 PARAM$rpart_param <- list(
   "cp" = -1,
-  "minsplit" = 50,
-  "minbucket" = 5,
-  "maxdepth" = 10
+  "minsplit" = 100,
+  "minbucket" = 10,
+  "maxdepth" = 8
 )
 
 # parametros  arbol
