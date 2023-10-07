@@ -11,9 +11,9 @@ require("yaml")
 
 # Parametros del script
 PARAM <- list()
-PARAM$experimento <- "6TS6410"
+PARAM$experimento <- "10TS6410"
 
-PARAM$exp_input <- "6FE6310"
+PARAM$exp_input <- "10FE6310"
 
 # me salteo los meses duros de pandemia, pero llego hasta 201907 en training
 # entreno en 18 meses
