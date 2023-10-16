@@ -28,9 +28,9 @@ PARAM$exp_input  <- "02_DR7210"
 
 PARAM$lag1  <- TRUE
 PARAM$lag2  <- TRUE
-PARAM$lag3  <- TRUE
+PARAM$lag3  <- FALSE
 
-PARAM$Tendencias1$run  <- TRUE
+PARAM$Tendencias1$run  <- FALSE
 PARAM$Tendencias1$ventana  <- 6
 PARAM$Tendencias1$tendencia  <- TRUE
 PARAM$Tendencias1$minimo  <- FALSE
@@ -56,7 +56,7 @@ PARAM$RandomForest$min.node.size  <- 1000
 PARAM$RandomForest$mtry  <- 40
 PARAM$RandomForest$semilla  <- 199999    # cambiar por la propia semilla
 
-PARAM$CanaritosAsesinos$ratio  <- 1.3        #varia de 0.0 a 2.0, si es 0.0 NO se activan
+PARAM$CanaritosAsesinos$ratio  <- 1.2        #varia de 0.0 a 2.0, si es 0.0 NO se activan
 PARAM$CanaritosAsesinos$desvios  <- 4.0      #desvios estandar de la media, para el cutoff
 PARAM$CanaritosAsesinos$semilla  <- 199999   # cambiar por la propia semilla
 
